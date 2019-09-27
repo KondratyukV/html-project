@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Form</title>
+</head>
+
+<body>
+        <form method="post" action="https://formspree.io/sibskana@ukr.net">
+            <h1>Form</h1>
+            <nav>
+                <a href="index.html">Home</a>
+            </nav>
+            <hr>
+            <label for="name">Your nickname: </label>
+            <input type="text" name="Name" id="Name" placeholder="Nickname" required="">
+            <hr>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" placeholder="E-mail" required="">
+            <hr>
+            <label for="age">Birthday: <em></em></label>
+            <input id="age" type="date" min="1920-01-01" max="2000-01-01">
+            <hr>
+            <label>Gender:</label>
+                <label>
+                    <input type="radio" name="status">Male</label>
+                <label>
+                    <input type="radio" name="status">Female</label>
+                <label>
+                    <input type="radio" name="status">Other</label>
+            <hr>
+            <label>How often do you play video games?</label>
+                <label>
+                    <input type="checkbox" name="status">Often</label>
+                <label>
+                    <input type="checkbox" name="status">Sometimes</label>
+                <label>
+                    <input type="checkbox" name="status">Rarely</label>
+                <label>
+                    <input type="checkbox" name="status">Never</label>
+            <hr>
+            <label>Do you prefer playing alone or with friends?</label>
+                <label>
+                    <input type="checkbox" name="status">Singleplayer</label>
+                <label>
+                    <input type="checkbox" name="status">Multiplayer</label>
+            <hr>
+            <label>What is your favorite video game genre? </label>
+
+            <select name="selectlist">
+                <option value="value1">MMO</option>
+                <option value="value2">Simulations</option>
+                <option value="value3">Puzzle</option>
+                <option value="value4">Action</option>
+                <option value="value5">Shooter</option>
+                <option value="value6">Sports</option>
+                <option value="value7">Educational</option>
+                <option value="value8">RPG</option>
+            </select>
+            <hr>
+            <label for="name">Your favourite game: </label>
+            <input type="text" name="name" id="name" placeholder="Name of the game">
+            <hr>
+            <label for="charactername">Your favourite character: </label>
+            <input type="text" name="charactername" id="charactername" placeholder="Name of the character">
+            <hr>
+            <label>Eternal question:</label>
+                <label>
+                    <input type="radio" name="status">Console</label>
+                <label>
+                    <input type="radio" name="status">PC</label>
+            <hr>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
